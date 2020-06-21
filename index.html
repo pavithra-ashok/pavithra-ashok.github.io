@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>My todo app</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel='stylesheet' href="css/basicStyle.css" type='text/css' media='all' />
+</head>
+
+<body>
+    <header>
+        <h1>ToDo List</h1>
+    </header>
+    <main>
+        <p>Add things to do below</p>
+        <div>
+            <section>
+                <form>
+                    <label for="inputItem" id="inputLabel"></label>
+                    <input id="inputItem">
+                    <button id="addItem">Submit</button>
+                </form>
+            </section>
+            <ul id="todoList"></ul>
+            <hr>
+        </div>
+        <section>
+            <div>
+                <ul id="doneList"></ul>
+            </div>
+        </section>
+    </main>
+    <script src="js/processTodo.js"></script>
+</body>
+
+</html>
